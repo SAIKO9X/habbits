@@ -33,7 +33,10 @@ body {
 	justify-content: space-between;
 	align-items: center;
 
-	margin: 48px 120px 0 120px;
+	padding: 48px 120px 0 120px;
+
+	position: fixed;
+	width: 100%;
 }
 
 #header-section img {
@@ -69,8 +72,12 @@ main {
 	margin: 99px 120px 0 120px;
 }
 
-main form {
+#form-habits {
 	display: flex;
+
+	padding-top: 184px;
+	width: fit-content;
+	/*fit content significa encaixe o conteúdo ou seja ajuste ele de acordo com as propriedades passadas para ele*/
 }
 
 main input {
@@ -137,4 +144,10 @@ main input:checked {
 
 .day div {
 	margin-bottom: 8px;
+}
+
+@media (max-width: 570px) {
+	#header-section button div {
+		display: none;
+	}
 }
