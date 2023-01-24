@@ -61,11 +61,17 @@ body {
 	font-size: 16px;
 
 	cursor: pointer;
+
+	transition: background-color 0.25s;
 }
 
 #header-section button img {
 	width: 20px;
 	height: 20px;
+}
+
+#header-section button:hover {
+	background-color: var(--violet-500);
 }
 
 main {
@@ -94,9 +100,16 @@ main input {
 	background-color: var(--zinc-900);
 
 	cursor: pointer;
+
+	transition: all 0.25s;
 }
 
 main input:checked {
+	border: 2px solid var(--violet-400);
+	background-color: var(--violet-500);
+}
+
+main input:hover {
 	border: 2px solid var(--violet-400);
 	background-color: var(--violet-500);
 }
@@ -119,6 +132,8 @@ main input:checked {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	cursor: default;
 }
 
 .days {
