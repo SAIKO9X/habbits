@@ -28,6 +28,8 @@ body {
 	background-color: var(--bg-color);
 }
 
+/*============ HEADER SECTION CSS ============*/
+
 #header-section {
 	display: flex;
 	justify-content: space-between;
@@ -74,9 +76,13 @@ body {
 	background-color: var(--violet-500);
 }
 
+/*============ MAIN SECTION CSS ============*/
+
 main {
 	margin: 99px 120px 0 120px;
 }
+
+/*============ FORM SECTION CSS ============*/
 
 #form-habits {
 	display: flex;
@@ -113,6 +119,8 @@ main input:hover {
 	border: 2px solid var(--violet-400);
 	background-color: var(--violet-500);
 }
+
+/*============ HABITS DESIGN ============*/
 
 .habits {
 	display: flex;
@@ -160,12 +168,7 @@ main input:hover {
 .day div {
 	margin-bottom: 8px;
 }
-
-alert {
-	padding: 20px;
-	background-color: var(--violet-500);
-	color: white;
-}
+/*============ MEDIA QUERIES ============*/
 
 @media (max-width: 570px) {
 	#header-section button div {
