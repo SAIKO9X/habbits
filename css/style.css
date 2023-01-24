@@ -146,6 +146,12 @@ main input:checked {
 	margin-bottom: 8px;
 }
 
+alert {
+	padding: 20px;
+	background-color: var(--violet-500);
+	color: white;
+}
+
 @media (max-width: 570px) {
 	#header-section button div {
 		display: none;
